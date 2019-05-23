@@ -1,0 +1,102 @@
+iframe
+{
+ border:none;
+     height: 450px;
+    width: 75%;
+}
+
+.bg-overlay {
+   
+    color: #fff;
+      padding:28px 1px 25px 3px;
+    border-radius: 50%;
+}
+
+.categories
+{
+	
+
+}
+
+.categories h5
+{
+ color:white;
+ font-size:17px;
+}
+.white-box .box-title {
+    
+     text-transform: capitalize; 
+    font-size: 12px;
+    line-height: 15px !important;
+}
+.panel .panel-heading {
+    text-transform: capitalize;
+
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.user {
+    padding:0 10px 10px;
+    min-height:150px;
+    height:auto;
+    margin: 10px 0;
+}
+.lead
+{
+ font-weight:500;
+}
+
+.white-box {
+    /*height: 273px !important;*/
+   
+}
+
+
+.search-btn
+{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background: none;
+    color: #4c5667;
+	border:0;
+}
+
+
+
+@media (max-width: 575px){
+.el-card-avatar img
+{
+     width: 35%;
+    margin: auto;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

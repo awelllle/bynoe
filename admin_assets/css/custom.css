@@ -1,0 +1,371 @@
+.login-register {
+   height: 155%;
+    position: absolute;
+    background:#7080907d !important;
+	 /*background: url(../plugins/images/p1.jpg) no-repeat center center / cover !important;*/
+   
+}
+
+.login-box {
+    
+   
+   
+  
+}
+
+
+@media (min-width: 1200px){
+
+.dash-icons
+{
+     margin-left: 250px;
+    width: 100%;
+
+}
+
+}
+.logo img
+{
+ width:44px;
+
+}
+.navbar-header {
+    background: #1b1571 !important;
+}
+.tabs-style-bar nav ul li.tab-current a {
+    background: #1b1571;
+    color: #fff;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    background-color: #1b1571;
+    border-color: #1b1571;
+}
+
+#emotion label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 23px;
+    border: 2px transparent solid;
+}
+
+#emotion label img {
+    padding: 4px;
+    width:100px;
+}
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.selected {
+    border-radius: 4px;
+    border: 2px #1b1571 solid !important;
+           
+}
+#blokkolowait {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+    z-index: 99998;
+    /* top: 50%; */
+    left: 50%;
+    /* margin-left: -80px; */
+    /* margin-top: -75px; */
+}
+#blokkolowait li {
+  display: inline-block;
+  background-color: #525252;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 3px;
+  margin-right: 3px;
+  box-sizing: border-box;
+  animation-duration: 1600ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+  animation-name: animbelso;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transform-origin: 5px 5px;
+}
+#blokkolowait li:nth-child(1) {
+  animation-delay: 0ms;
+}
+#blokkolowait li:nth-child(2) {
+  animation-delay: 150ms;
+}
+#blokkolowait li:nth-child(3) {
+  animation-delay: 300ms;
+}
+#blokkolowait li:nth-child(4) {
+  animation-delay: 450ms;
+}
+#blokkolowait li:nth-child(5) {
+  animation-delay: 600ms;
+}
+#blokkolowait li:nth-child(6) {
+  animation-delay: 750ms;
+}
+#blokkolowait li:nth-child(7) {
+  animation-delay: 900ms;
+}
+#blokkolowait li:nth-child(8) {
+  animation-delay: 1050ms;
+}
+@keyframes animbelso {
+  0% {
+    transform: translate3d(0, 0, 0);
+    background-color: #525252;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  20% {
+    transform: translate3d(0, -2px, 0);
+    background-color: #e7e7e7;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  60% {
+    transform: translate3d(0, 0, 0);
+    background-color: #525252;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  }
+}
+
+
+.StripeElement {
+  background-color: white;
+  height: 50px;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+
+.example.example3 {
+  background-color: #525f7f;
+}
+
+.example.example3 * {
+  font-family: Quicksand, Open Sans, Segoe UI, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.example.example3 .fieldset {
+  margin: 0 15px 30px;
+  padding: 0;
+  border-style: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.example.example3 .field {
+  padding: 10px 20px 11px;
+  background-color: #7488aa;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.example.example3 .field.half-width {
+  width: calc(50% - (5px / 2));
+}
+
+.example.example3 .field.third-width {
+  width: calc(33% - (5px / 3));
+}
+
+.example.example3 .field + .field {
+  margin-top: 6px;
+}
+
+.example.example3 .field.focus,
+.example.example3 .field:focus {
+  color: #424770;
+  background-color: #f6f9fc;
+}
+
+.example.example3 .field.invalid {
+  background-color: #fa755a;
+}
+
+.example.example3 .field.invalid.focus {
+  background-color: #f6f9fc;
+}
+
+.example.example3 .field.focus::-webkit-input-placeholder,
+.example.example3 .field:focus::-webkit-input-placeholder {
+  color: #cfd7df;
+}
+
+.example.example3 .field.focus::-moz-placeholder,
+.example.example3 .field:focus::-moz-placeholder {
+  color: #cfd7df;
+}
+
+.example.example3 .field.focus:-ms-input-placeholder,
+.example.example3 .field:focus:-ms-input-placeholder {
+  color: #cfd7df;
+}
+
+.example.example3 input, .example.example3 button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border-style: none;
+}
+
+.example.example3 input {
+  color: #fff;
+}
+
+.example.example3 input::-webkit-input-placeholder {
+  color: #9bacc8;
+}
+
+.example.example3 input::-moz-placeholder {
+  color: #9bacc8;
+}
+
+.example.example3 input:-ms-input-placeholder {
+  color: #9bacc8;
+}
+
+.example.example3 button {
+  display: block;
+  width: calc(100% - 30px);
+  height: 40px;
+  margin: 0 15px;
+  background-color: #fcd669;
+  border-radius: 20px;
+  color: #525f7f;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.example.example3 button:active {
+  background-color: #f5be58;
+}
+
+.example.example3 .error svg .base {
+  fill: #fa755a;
+}
+
+.example.example3 .error svg .glyph {
+  fill: #fff;
+}
+
+.example.example3 .error .message {
+  color: #fff;
+}
+
+.example.example3 .success .icon .border {
+  stroke: #fcd669;
+}
+
+.example.example3 .success .icon .checkmark {
+  stroke: #fff;
+}
+
+.example.example3 .success .title {
+  color: #fff;
+}
+
+.example.example3 .success .message {
+  color: #9cabc8;
+}
+
+.example.example3 .success .reset path {
+  fill: #fff;
+}
+
+.login-reg-form input[type=text]:focus, input[type=password]:focus
+{
+ box-shadow:0px 0px 11px rgba(29, 20, 19, 0.25);
+ border:2px solid #24a6c3;
+}
+
+
+
+
+.select-pane {
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
