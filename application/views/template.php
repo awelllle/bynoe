@@ -55,8 +55,8 @@
 									<ul class="nav navbar-nav">
 										<li class="<?php if(isset($current) && $current === "home" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>">Home</a></li>
 													<li class="<?php if(isset($current) && $current === "about" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>about">About</a></li>
-													<li><a href="booking.html">Booking</a></li>
-													<li><a href="gallery.html">Gallery</a></li>
+													<!-- <li><a href="booking.html">Booking</a></li>
+													<li><a href="gallery.html">Gallery</a></li> -->
 													
 													<li class="<?php if(isset($current) && $current === "contact" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>contact">Contact</a></li>
 												</ul>
