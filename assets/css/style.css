@@ -1174,11 +1174,11 @@ h3.w3l-titles:before {
     color: #140b05;
     font-size: 1.2em;
     font-weight: 600;
-    text-transform: uppercase;
+    
 }
 .w3_two_grid_right_gridr p{
 	color:#999999;
-	line-height:2em;
+	
 }
 h3.w3l-titles,h2.w3l-titles {
     color: #ed1c24;
@@ -1832,7 +1832,7 @@ section.contact-w3ls p.contact-agile1 a {
 section.contact-w3ls h4 {
     font-size: 2em;
     letter-spacing: 1px;
-    color: #ed1c24;
+    color: #a27f2d;
     padding: 1em 0;
 }
 section.contact-w3ls p.contact-agile2 {
@@ -1851,7 +1851,7 @@ section.contact-w3ls label.contact-p1 {
     padding-bottom: 10px;
 }
 .form-group {
-    margin-bottom:2em;
+   
 }
 section.contact-w3ls p.help-block {
     color:#ff0500!important;
@@ -1859,12 +1859,12 @@ section.contact-w3ls p.help-block {
 section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls input#phone  {
 	height:45px;
 }
-section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls input#phone {
+section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls textarea#message, section.contact-w3ls input#phone {
     font-size: 1em;
     color: #000;
     background-color: transparent;
     border-radius: 0;
-    border-color: #000;
+    
     padding: 0.8em;
 }
 section.contact-w3ls button.btn.btn-primary {

@@ -55,8 +55,8 @@
 									<ul class="nav navbar-nav">
 										<li class="<?php if(isset($current) && $current === "home" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>">Home</a></li>
 													<li class="<?php if(isset($current) && $current === "about" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>about">About</a></li>
-													<!-- <li><a href="booking.html">Booking</a></li>
-													<li><a href="gallery.html">Gallery</a></li> -->
+													
+													<li><a href="gallery.html">Gallery</a></li>
 													
 													<li class="<?php if(isset($current) && $current === "contact" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>contact">Contact</a></li>
 												</ul>
@@ -75,15 +75,17 @@
 			<div class="col-md-4 agile_footer_grid">
 				<h3>Contact Info</h3>
 				<ul class="w3_address">
-					<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
-					<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-					<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
+					<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i> 23 Oluwalewinu Street off Ladipo Kuku Bus Stop, Ikeja </li>
+					<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@bynoetravels.com">info@bynoetravels.com</a></li>
+					<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+234 (0) 806 117 9446</li>
 				</ul>
 			</div>
 			<div class="col-md-4 agile_footer_grid">
 				<h3>About Us</h3>
-				<p>Donec purus neque, vulputate id est id, pretium semper enim. Morbi viverra 
-					congue nisi vel pulvinar posuere sapien eros, sed faucibus.</p>
+				<p>Bynoe Logistic Company is made with assurance and relaxation of
+mind with various range of destination with marvellous facilities and
+unparalleled selection of holiday’s packages, conference meetings,
+good sightseeing and all.</p>
 				<ul class="agileits_social_list">
 					<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -91,24 +93,17 @@
 				</ul>
 			</div>
 			<div class="col-md-4 agile_footer_grid">
-				<h3>Latest News</h3>
+				<h3>Quick Links</h3>
 				<ul class="agileits_w3layouts_footer_grid_list">
 					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						<a href="#" data-toggle="modal" data-target="#myModal">Donec purus neque, vulputate 
-							id est id</a>
+						<a href="<?php echo site_url('contact') ?>" >
+							Contact Us</a>
 					</li>
 					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						<a href="#" data-toggle="modal" data-target="#myModal">Nullam fringilla sed quam vitae</a>
+						<a href="<?php echo site_url('about') ?>" >
+							About Us</a>
 					</li>
-					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						<a href="#" data-toggle="modal" data-target="#myModal">Cras libero arcu, accumsan ac </a>
-					</li>
-					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						<a href="#" data-toggle="modal" data-target="#myModal">Aenean porttitor accumsan</a>
-					</li>
-					<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						<a href="#" data-toggle="modal" data-target="#myModal">Nullam sed turpis gravida</a>
-					</li>
+					
 				</ul>
 			</div>
 			<div class="clearfix"> </div>

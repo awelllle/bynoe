@@ -9,30 +9,24 @@
 						<div class="banner-text">
 					
 							<h3>Enjoy Your Dream Vacation</h3>
-							<p>Located in SEC 24, TWP 58 N., 101 W., in Park County, WY. 
-								A part of Record of Survey # 2008-3512 in Cabinet J, Page 19, Park 
-								County Records.</p>
-								<a href="#" class="read-agileits" data-toggle="modal" data-target="#myModal">View Details</a>
+							<p></p>
+								
 						</div>
 					</li>
 					<li>
 						<div class="banner-text">
 					
 							<h3>Find Travel Perfection</h3>
-							<p>Located in SEC 24, TWP 58 N., 101 W., in Park County, WY. 
-								A part of Record of Survey # 2008-3512 in Cabinet J, Page 19, Park 
-								County Records.</p>
-								<a href="#" class="read-agileits" data-toggle="modal" data-target="#myModal">View Details</a>
+							<p></p>
+								
 						</div>
 					</li>
 					<li>
 						<div class="banner-text">
 					
 							<h3>Safe Way To Travel</h3>
-							<p>Located in SEC 24, TWP 58 N., 101 W., in Park County, WY. 
-								A part of Record of Survey # 2008-3512 in Cabinet J, Page 19, Park 
-								County Records.</p>
-								<a href="#" class="read-agileits" data-toggle="modal" data-target="#myModal">View Details</a>
+							<p></p>
+								<!-- <a href="#" class="read-agileits" data-toggle="modal" data-target="#myModal">View Details</a> -->
 						</div>
 					</li>
 				</ul>
@@ -49,7 +43,7 @@
 		<div class="container">
 <div class="wthree_head_section">
 				<h3 class="w3l_header">Welcome to <span>Bynoe Travels</span></h3>
-				<p>A travel agency is a private retailer or public service that provides travel and tourism related services to the public on behalf of suppliers such as activities</p>
+				<p>Check out some of our services</p>
 			</div>
 			<div class="col-md-6 w3_two_grid_right">
 				<div class="w3_two_grid_right1">
@@ -59,8 +53,8 @@
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Accommodation</h4>
-						<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+						<h4>Hotel Reservation</h4>
+						<p>We offer you the best hotel deals ever!</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -71,8 +65,8 @@
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Transportation</h4>
-						<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+						<h4>Pickup and Dropoff</h4>
+						<p>We take care of your pickups and dropoffs</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -83,8 +77,8 @@
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Seasoned Agents</h4>
-						<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+						<h4>Fulltime Customer Support </h4>
+						<p>We have 24 hour customer support</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -97,8 +91,8 @@
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Easy Trip Planning</h4>
-						<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+						<h4>Accommodation Transfers</h4>
+						<p>We help with acccommodation transfers</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -109,8 +103,8 @@
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Accommodation</h4>
-						<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+						<h4>Visa Assistance</h4>
+						<p>We offer assistance to help you get your visa</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -121,8 +115,8 @@
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Transportation</h4>
-						<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
+						<h4>Flexible Pricing</h4>
+						<p>Our prices are very flexible.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -139,13 +133,10 @@
 	</div>
 	<div class="col-md-5 bannerbottomright">
 		<h3>Why We’re the Best </h3>
-		<p>Ut enim ad minima veniam, quis nostrum 
-			exercitationem ulla corporis suscipit laboriosam, 
-			nisi ut aliquid ex ea.</p>
-		<h4><i class="fa fa-bed" aria-hidden="true"></i>Beds: 2</h4>
-		<h4><i class="fa fa-wifi" aria-hidden="true"></i>wifi: Available</h4>
-		<h4><i class="fa fa-car" aria-hidden="true"></i>Car Parking: Available</h4>
-		<h4><i class="fa fa-coffee" aria-hidden="true"></i>Resturants: 2</h4>
+		<p>We are friendly, professional, and experienced in accommodating both the seasoned 
+			traveller and those new to the world of travel. 
+			We provide ourselves in customer satisfaction.</p>
+	
 	</div>
 	<div class="clearfix"></div>
 </div>
@@ -155,7 +146,7 @@
 		<div class="container">
 			<div class="wthree_head_section">
 				<h3 class="w3l_header">Tour <span>Packages</span></h3>
-				<p>A travel agency is a private retailer or public service that provides travel and tourism related services to the public on behalf of suppliers such as activities.</p>
+				<p>Check out our mouth-watering packages!</p>
 			</div>
 			<div class="pricing-grids-info">
 								<div class="pricing-grid grid-one">
@@ -237,9 +228,9 @@
 	</div>	
 	<!--//pricing-->
 
-	<!-- counter -->
+	<!-- counter --
 	<div class="services-bottom stats services">
-	<div class="banner-dott1">
+	  <div class="banner-dott1">
 		<div class="container">
 		
 		  <div class="wthree-agile-counter">
