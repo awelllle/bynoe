@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Bynoe travels and tours - Home</title>
+<title><?php echo $title ?></title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -56,7 +56,7 @@
 										<li class="<?php if(isset($current) && $current === "home" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>">Home</a></li>
 													<li class="<?php if(isset($current) && $current === "about" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>about">About</a></li>
 													
-													<li><a href="gallery.html">Gallery</a></li>
+													<li><a href="<?php echo site_url('gallery'); ?>">Gallery</a></li>
 													
 													<li class="<?php if(isset($current) && $current === "contact" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>contact">Contact</a></li>
 												</ul>
@@ -220,5 +220,11 @@ good sightseeing and all.</p>
 		});
 	</script>
 <!-- //FlexSlider-JavaScript -->
+
+	<!-- simpleLightbox -->
+	<script src="<?php echo base_url() ?>assets/js/simpleLightbox.js"></script>	<script>
+		$('.w3_agile_gallery_grid a').simpleLightbox();
+	</script>
+<!-- //simpleLightbox -->
 </body>
 </html>

@@ -488,6 +488,7 @@ a.read-agileits:hover {
   list-style: none;
 }
 .callbacks_container {
+    margin-top: 20%;
   position: relative;
   width: 100%;
 }
@@ -676,13 +677,13 @@ ul.social-slide li i.mac{
     /* margin: 0 0px; */
 }
 a.callbacks_nav.callbacks1_nav.prev {
-    background: transparent url(../images/arrr1.png) no-repeat 0px 0px;
+    /* background: transparent url(../images/arrr1.png) no-repeat 0px 0px; */
     left:3%;
     height: 65px;
     width: 65px;
 }
 .callbacks_nav.next {
-    background: transparent url("../images/arrr2.png") no-repeat 0px 0px;
+    /* background: transparent url("../images/arrr2.png") no-repeat 0px 0px; */
     left:93%;
     height: 65px;
     width: 65px;
@@ -720,11 +721,11 @@ ul.social-agileinfo li a {
 }
 .banner-text h3 {
     color: #fff;
-    font-size: 50px;
+    font-size: 77px;
     text-transform: capitalize;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin: 15px 0;
+    font-weight: 800;
+    /* letter-spacing: 1px; */
+    /* margin: 15px 0; */
 }
 .banner-text h6 {
     font-size: 45px;
@@ -780,7 +781,7 @@ span.video-text i {
     padding: 0;
 }
 .bannerbottomleft {
-    background: url(../images/2.jpg) no-repeat 0px 0px;
+    background: url(../images/3.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 525px;
 }

@@ -27,22 +27,22 @@ class Home extends CI_Controller {
 	
 	public function contact()
 	{
-		$data['title']                = "Contact Us - Tabfadstores";
+		$data['title']                = "Contact Us - Bynotravels";
 		$data['include']              = "contact";
 		$this->load->view('template', $data);
 	}
 	
 	public function about()
 	{
-		$data['title']                = "About Us - Tabfadstores";
+		$data['title']                = "About Us - Bynotravels";
 		$data['include']              = "about";
 		$this->load->view('template', $data);
 	}
 
-	public function faq()
+	public function gallery()
 	{
-		$data['title']                = "Frequently Asked Questions - Tabfadstores";
-		$data['include']              = "faq";
+		$data['title']                = "Gallery - Bynotravels";
+		$data['include']              = "gallery";
 		$this->load->view('template', $data);
 	}
 	

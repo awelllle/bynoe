@@ -1,43 +1,26 @@
+	
+	
+
 	<!-- w3-banner -->
-	<div class="banner" style="background:url(<?php echo base_url() ?>assets/images/1.jpg) no-repeat 0px 0px;">
-		<div class="banner-dott1">
-			<div class="w3-banner">
+	<div class="video-bg">
+	<div class="overlay">
+
+	<h1 class="banner-text">Find Travel Perfection!</h1>
+   </div>
+	
+			<video autoplay muted loop id="myVideo">
+              <source src="<?php echo base_url() ?>assets/video.mp4" type="video/mp4">
+			</video>
 			
-				<div  class="callbacks_container">
-				<ul class="rslides" id="slider3">
-					<li>
-						<div class="banner-text">
-					
-							<h3>Enjoy Your Dream Vacation</h3>
-							<p></p>
-								
-						</div>
-					</li>
-					<li>
-						<div class="banner-text">
-					
-							<h3>Find Travel Perfection</h3>
-							<p></p>
-								
-						</div>
-					</li>
-					<li>
-						<div class="banner-text">
-					
-							<h3>Safe Way To Travel</h3>
-							<p></p>
-								<!-- <a href="#" class="read-agileits" data-toggle="modal" data-target="#myModal">View Details</a> -->
-						</div>
-					</li>
-				</ul>
-			</div>	
 			
-			</div>
-					
-		<!-- //w3-banner -->
-		</div>
+			
+
 	</div>
 <!-- //banner -->
+
+
+
+
 	<!-- advantages -->
 	<div class="two-grids">
 		<div class="container">
