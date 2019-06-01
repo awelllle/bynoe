@@ -1,5 +1,5 @@
 	<!-- w3-banner -->
-	<div class="banner">
+	<div class="banner" style="background:url(<?php echo base_url() ?>assets/images/1.jpg) no-repeat 0px 0px;">
 		<div class="banner-dott1">
 			<div class="w3-banner">
 			
@@ -151,7 +151,7 @@
 			<div class="pricing-grids-info">
 								<div class="pricing-grid grid-one">
 									<div class="w3ls-top">
-										<img src="images/g8.jpg" class="img-responsive" alt="">
+										<img src="<?php echo base_url() ?>images/g8.jpg" class="img-responsive" alt="">
 									</div>
 									<div class="w3ls-bottom">
 										<ul class="count">
@@ -169,7 +169,7 @@
 								</div>
 								<div class="pricing-grid grid-two">
 									<div class="w3ls-top">
-										<img src="images/g4.jpg" class="img-responsive" alt="">
+										<img src="<?php echo base_url() ?>images/g4.jpg" class="img-responsive" alt="">
 									</div>
 									<div class="w3ls-bottom">
 										<ul class="count">
@@ -187,7 +187,7 @@
 								</div>
 								<div class="pricing-grid grid-three">
 									<div class="w3ls-top">
-										<img src="images/g5.jpg" class="img-responsive" alt="">
+										<img src="<?php echo base_url() ?>images/g5.jpg" class="img-responsive" alt="">
 									</div>
 									<div class="w3ls-bottom">
 										<ul class="count">
@@ -205,7 +205,7 @@
 								</div>
 								<div class="zb pricing-grid grid-four">
 									<div class="w3ls-top">
-										<img src="images/g11.jpg" class="img-responsive" alt="">
+										<img src="<?php echo base_url() ?>images/g11.jpg" class="img-responsive" alt="">
 									</div>
 									<div class="w3ls-bottom">
 										<ul class="count">
@@ -303,28 +303,28 @@
 				<div class="flexslider">
 					<ul class="slides">
 						<li>
-							<img src="images/c1.jpg" alt="" />
+							<img src="<?php echo base_url() ?>images/c1.jpg" alt="" />
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
 								<div class="client">
 									<h5>Gerald Roy</h5>
 								</div>
 						</li>
 						<li>
-							<img src="images/c2.jpg" alt="" />
+							<img src="<?php echo base_url() ?>images/c2.jpg" alt="" />
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
 								<div class="client">
 									<h5>Adam Brandom</h5>
 								</div>
 						</li>
 						<li>
-							<img src="images/c3.jpg" alt="" />
+							<img src="<?php echo base_url() ?>images/c3.jpg" alt="" />
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
 								<div class="client">
 									<h5>Steve Artur</h5>
 								</div>
 						</li>
 						<li>
-							<img src="images/c4.jpg" alt="" />
+							<img src="<?php echo base_url() ?>images/c4.jpg" alt="" />
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
 								<div class="client">
 									<h5>Martin Victor</h5>
