@@ -263,7 +263,6 @@ a.navbar-brand span {
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
     color: #ffbc15 !important;
-    color:  !important;
     background-color: rgba(76, 76, 76, 0) ! important
 }
 .dropdown-menu {

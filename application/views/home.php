@@ -2,22 +2,57 @@
 	
 
 	<!-- w3-banner -->
-	<div class="video-bg">
-	<div class="overlay">
-
-	<h1 class="banner-text">Find Travel Perfection!</h1>
-   </div>
+ <!-- <div class="video-bg col-md-12">
+			
+		 <!-- <div class="overlay">
+			<h1 class="banner-text">Find Travel Perfection!</h1>
+		 </div> --
 	
-			<video autoplay muted loop id="myVideo">
-              <source src="<?php echo base_url() ?>assets/video.mp4" type="video/mp4">
-			</video>
-			
-			
+		<video class="sizer" autoplay muted loop >
+			<source src="<?php echo base_url() ?>assets/video.mp4" type="video/mp4">
+		</video>
 			
 
-	</div>
+</div> -->
 <!-- //banner -->
 
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+   
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+  
+ 
+    <div class="item active">
+      <img src="https://img.wallpapersafari.com/desktop/1920/1080/78/25/JU9bGD.jpg" alt="Slider1"  width="100%">
+    </div>
+    
+      <div class="item ">
+      <img src="http://www.kabu-load.net/data/out/100/IMG_35190.jpg" alt="Slider2"  width="100%">
+    </div>
+
+    <div class="item">
+      <img src="https://wallpapercave.com/wp/wp2481186.jpg" alt="Slider3" width="100%">
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
 
