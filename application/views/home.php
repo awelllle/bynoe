@@ -17,6 +17,9 @@
 <!-- //banner -->
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="overlay">
+			<h1 class="banner-text">Find Travel Perfection!</h1>
+		 </div> 
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
