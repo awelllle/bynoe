@@ -849,8 +849,9 @@ span.video-text i {
     text-align: center;
 }
 .w3l_header span {
-    color: #ffbc15;
-    font-weight: 200;
+    color: #D2691E;
+    font-weight: 900;
+    font-family: sans-serif;
 }
 .wthree_head_section p {
     font-size: 15px;
@@ -1435,7 +1436,7 @@ h3.w3l-titles:after,h2.w3l-titles:after {
     line-height: 1.8em;
     margin:0 0 1em 0;
     font-size: 0.9em;
-    color: #999999;
+    color: #313742;
 }
 ul.ab {
     padding: 0;
