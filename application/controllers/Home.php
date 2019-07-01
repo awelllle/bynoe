@@ -11,7 +11,7 @@ class Home extends CI_Controller {
 		
 	public function index()
 	{
-		$data['title']                = "Home - Tabfadstores";
+		$data['title']                = "Home - Bynotravels";
 		$data['include']              = "home";
 	    $data['products']            = $this->product_model->get_products("6");
 	     foreach($data['products'] as $p)
@@ -29,6 +29,19 @@ class Home extends CI_Controller {
 	{
 		$data['title']                = "Contact Us - Bynotravels";
 		$data['include']              = "contact";
+		$this->load->view('template', $data);
+	}
+	public function hotels()
+	{
+		$data['title']                = "Hotels - Bynotravels";
+		$data['include']              = "hotels";
+		$this->load->view('template', $data);
+	}
+
+	public function packages()
+	{
+		$data['title']                = "Holiday Packages - Bynotravels";
+		$data['include']              = "packages";
 		$this->load->view('template', $data);
 	}
 	
