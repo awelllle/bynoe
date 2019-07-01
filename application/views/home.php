@@ -70,24 +70,24 @@
 				<div class="w3_two_grid_right1">
 					<div class="col-xs-3 w3_two_grid_right_grid">
 						<div class="w3_two_grid_right_grid1">
-							<i class="fa fa-building" aria-hidden="true"></i>
+							<i class="fa fa-plane" aria-hidden="true"></i>
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Hotel Reservation</h4>
-						<p>We offer you the best hotel deals ever!</p>
+						<h4>Flight Reservation</h4>
+						<p>We offer you the best travel deals ever!</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="w3_two_grid_right1">
 					<div class="col-xs-3 w3_two_grid_right_grid">
 						<div class="w3_two_grid_right_grid1">
-							<i class="fa fa-plane" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Pickup and Dropoff</h4>
-						<p>We take care of your pickups and dropoffs</p>
+						<h4>Accommodation Transfers</h4>
+						<p>We take care of your accommodation transfers</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -108,11 +108,11 @@
 				<div class="w3_two_grid_right1">
 					<div class="col-xs-3 w3_two_grid_right_grid">
 						<div class="w3_two_grid_right_grid1">
-							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-car" aria-hidden="true"></i>
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Accommodation Transfers</h4>
+						<h4>Pickup and Dropoff</h4>
 						<p>We help with acccommodation transfers</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -132,12 +132,12 @@
 				<div class="w3_two_grid_right1">
 					<div class="col-xs-3 w3_two_grid_right_grid">
 						<div class="w3_two_grid_right_grid1">
-							<i class="fa fa-bus" aria-hidden="true"></i>
+							<i class="fa fa-suitcase" aria-hidden="true"></i>
 						</div>
 					</div>
 					<div class="col-xs-9 w3_two_grid_right_gridr">
-						<h4>Flexible Pricing</h4>
-						<p>Our prices are very flexible.</p>
+						<h4>Travel Insurance</h4>
+						<p>We provide travel insurance</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

@@ -16,9 +16,9 @@
 					</div>
 					
 					<div class="agile_gallery_grid">
-						<a title="" href="<?php echo base_url() ?>assets/images/2.jpg">
+						<a title="" href="<?php echo base_url() ?>assets/images/14.jpeg">
 							<div class="agile_gallery_grid1">
-								<img src="<?php echo base_url() ?>assets/images/2.jpg" alt=" " class="img-responsive" />
+								<img src="<?php echo base_url() ?>assets/images/14.jpeg" alt=" " class="img-responsive" />
 								
 							</div>
 						</a>
