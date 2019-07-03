@@ -52,9 +52,9 @@
                 <div class="top-left-part"><a class="logo" href="">
 				<b class="">
 				<!--<img src="<?php echo base_url(); ?>assets/images/logo.png" alt="logo" class="logo" />-->
-                Tabfad
+                Bynoe
 				</b>
-				<span class="hidden-xs hidden-lg hidden-md"><strong>Tabfad</strong></span></a></div>
+				<span class="hidden-xs hidden-lg hidden-md"><strong>Bynoe</strong></span></a></div>
                 <!--<ul class="nav navbar-top-links navbar-left hidden-xs">
                     <li><a href="javascript:void(0)" class="open-close hidden-xs waves-effect waves-light"><i class="icon-arrow-left-circle ti-menu"></i></a></li>
                     <li>
@@ -76,7 +76,7 @@
                           
                           <!--  <li><a href="javascript:void(0)"><i class="ti-email"></i>  Inbox</a></li>
                             <li><a href="javascript:void(0)"><i class="ti-settings"></i>  Account Setting</a></li>-->
-                            <li><a href="<?php echo site_url('logout'); ?>"><i class="fa fa-power-off"></i>  Logout</a></li>
+                            <li><a href="<?php echo site_url('Admin/logout'); ?>"><i class="fa fa-power-off"></i>  Logout</a></li>
                         </ul>
                         <!-- /.dropdown-user -->
                     </li>
