@@ -14,7 +14,7 @@ class Home extends CI_Controller {
 		$data['item']            = $this->product_model->get_item('tours');
 	     foreach($data['item'] as $i)
 	     {
-				$i->image =  $this->product_model->get_image_from_id($i->id);
+				$i->image =  $this->product_model->get_image_from_id($i->id,'tours');
 		
 		 }
 
@@ -87,7 +87,7 @@ class Home extends CI_Controller {
 		$data['item']            = $this->product_model->get_item('images');
 	     foreach($data['item'] as $i)
 	     {
-				$i->image =  $this->product_model->get_image_from_id($i->id);
+				$i->image =  $this->product_model->get_image_from_id($i->id, 'gallery');
 		
 		 }
 		$data['title']                = "Gallery - Bynotravels";
