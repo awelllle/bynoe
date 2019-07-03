@@ -56,10 +56,10 @@
 										<li class="<?php if(isset($current) && $current === "home" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>">Home</a></li>
 													<li class="<?php if(isset($current) && $current === "about" ){ echo "active"; } ?>"><a href="<?php echo site_url() ?>about">About</a></li>
 													
-													<li><a href="#">Flight</a></li>
-													<li><a href="#">Hotels</a></li>
-													<li><a href="#">Visa Support</a></li>
-													<li><a href="#">Holiday Packages</a></li>
+													
+													<li><a href="<?php echo site_url() ?>hotels">Hotels</a></li>
+													<li><a href="<?php echo site_url() ?>visa">Visa Support</a></li>
+													<li><a href="<?php echo site_url() ?>packages">Holiday Packages</a></li>
 
 													<li><a href="<?php echo site_url('gallery'); ?>">Gallery</a></li>
 													

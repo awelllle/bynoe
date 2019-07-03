@@ -118,17 +118,13 @@
                         </ul>
                     </li>
                     <li class="nav-small-cap m-t-10">--- Main Menu</li>
-                   <li> <a href="<?php echo site_url('Admin/manage_products'); ?>" class="waves-effect"><i class="fa fa-home p-r-10"></i> <span class="hide-menu">Manage Products</span></a> </li>
-                   <li> <a href="<?php echo site_url('Admin/add_product'); ?>" class="waves-effect"><i class="fa fa-cube p-r-10"></i> <span class="hide-menu">Add Product</span></a> </li>
+                   <li> <a href="<?php echo site_url('Admin/manage_tours'); ?>" class="waves-effect"><i class="fa fa-home p-r-10"></i> <span class="hide-menu">Manage Tours</span></a> </li>
+                   <li> <a href="<?php echo site_url('Admin/manage_hotels'); ?>" class="waves-effect"><i class="fa fa-cube p-r-10"></i> <span class="hide-menu">Manage Hotels</span></a> </li>
+                   <li> <a href="<?php echo site_url('Admin/manage_testimonies'); ?>" class="waves-effect"><i class="fa fa-users p-r-10"></i> <span class="hide-menu">Testimonies</span></a> </li>
                    
-                   <li> <a href="<?php echo site_url('Admin/manage_categories'); ?>" class="waves-effect"><i class="fa fa-book p-r-10"></i> <span class="hide-menu">Manage Categories</span></a> </li>
-                  
-                   <li> <a href="<?php echo site_url('Admin/add_category'); ?>" class="waves-effect"><i class="fa fa-folder-open p-r-10"></i> <span class="hide-menu">Add Category</span></a> </li>
+                   <li> <a href="<?php echo site_url('Admin/manage_gallery'); ?>" class="waves-effect"><i class="fa fa-image p-r-10"></i> <span class="hide-menu">Manage Gallery</span></a> </li>
+                   <li> <a href="<?php echo site_url('Admin/manage_visas'); ?>" class="waves-effect"><i class="fa fa-flag p-r-10"></i> <span class="hide-menu">Manage Visa</span></a> </li>
                    
-                   
-                   <!-- <li> <a href="<?php echo site_url('Admin/bookings'); ?>" class="waves-effect"><i class="fa fa-book p-r-10"></i> <span class="hide-menu">Bookings</span></a> </li>
-                    <li> <a href="<?php echo site_url('Admin/comments'); ?>" class="waves-effect"><i class="fa fa-comments-o p-r-10"></i> <span class="hide-menu">Comments</span></a> </li>
-                     -->
 
                     <li><a href="<?php echo site_url('Admin/logout'); ?>" class="waves-effect"><i class="icon-logout fa-fw"></i> <span class="hide-menu">Log out</span></a></li>
                     

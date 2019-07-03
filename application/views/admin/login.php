@@ -41,7 +41,7 @@
                             <div class="user-thumb text-center"> 							
 							<a href="">
 			<!--<img alt="Logo" class="img-circle" width="100" src="<?php echo base_url() ?>admin_assets/plugins/images/users/genmu.jpg">-->
-			                 <h2>Tabfad Stores</h2>
+			                 <h2>Admin Login</h2>
 			
                                 <h3>Welcome back!</h3>
 								<!--<h5>Please sign in </h5>-->

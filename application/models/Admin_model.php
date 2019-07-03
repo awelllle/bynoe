@@ -32,19 +32,48 @@ Class Admin_model extends CI_Model
 			 }
      }
 	
-	public function insert_product($name,$category,$subcategory,$price,$description,$slug)
+	public function insert_product($country,$price)
+	{
+	
+	 $data = array(
+	  'country'           => $country, 
+	  'price'        => $price,
+	
+     
+	 );
+		return $this->db->insert('tours', $data);
+	}
+	public function insert_testimony($name,$testimony)
 	{
 	
 	 $data = array(
 	  'name'           => $name, 
-	  'category'        => $category,
-	  'subcategory'     => $subcategory,
-	  'price'           =>  $price,
-		'description'    => $description,
-		'slug'          => $slug
+	  'testimony'        => $testimony,
+	
      
 	 );
-		return $this->db->insert('products', $data);
+		return $this->db->insert('testimonies', $data);
+	}
+
+	public function insert_hotel($name,$price)
+	{
+	
+	 $data = array(
+	  'name'           => $name, 
+	  'price'        => $price,
+	
+     
+	 );
+		return $this->db->insert('hotels', $data);
+	}
+
+	public function insert_visa($country)
+	{
+	
+	 $data = array(
+	  'country'           => $country,  
+	 );
+		return $this->db->insert('visas', $data);
 	}
 	
 	public function delete($post_id, $type)
@@ -53,31 +82,40 @@ Class Admin_model extends CI_Model
 			return TRUE;
 	} 
 	
-	 public function get_last_id()
+	 public function get_last_id($table)
 	 {
 		   $this -> db -> select('id');
-		   $this -> db -> from('products');
+		   $this -> db -> from($table);
 		   $this -> db -> order_by('id', "desc");
 		   $query = $this -> db -> get()->row("id");
 		   return $query;	
 	 }
 	 
 	 
-	 public function get_products()
+	 public function get_items($table)
 	 {
 		   $this -> db -> select('*');
-		   $this -> db -> from('products');
+		   $this -> db -> from($table);
+		   if($table === "images")
+		    {
+				$this->db->where('type', "gallery");
+			}
 		   $query = $this -> db -> get();
 		   return $query->result();	
 	 }
 
-	 public function get_categories()
+	 
+	 public function get_item_details($id, $table)
 	 {
-		   $this -> db -> select('*');
-		   $this -> db -> from('categories');
-		   $query = $this -> db -> get();
-		   return $query->result();	
+		$this -> db -> select('*');
+		$this -> db -> from($table);
+		$this -> db -> where('id', $id);
+		$query = $this -> db -> get();
+		return $query->result();	
+
 	 }
+
+	
 	 public function get_parent_categories()
 	 {
 		   $this -> db -> select('*');

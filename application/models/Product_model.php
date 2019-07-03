@@ -17,12 +17,16 @@ class Product_model extends CI_Model
         $this->db->from('properties');
         return $this->db->get()->result();
     }
-	function get_products($limit)
+	function get_item($table)
 	{
 		$this->db->select("*");
-		$this->db->from('products');
+		$this->db->from($table);
+	
+		if($table === "images"){
+			$this->db->where('type', "gallery");
+		}
 		$this->db->order_by('id', "desc");
-		$this->db->limit($limit);
+		//$this->db->limit($limit);
 		return $this->db->get()->result();
 	}
 	
@@ -37,10 +41,11 @@ class Product_model extends CI_Model
         return $this->db->get()->result();
     }
 	
-	function get_image_from_id($id)
+	function get_image_from_id($id, $type)
 	{
 		$this->db->select("*");
-        $this->db->from('images');
+		$this->db->from('images');
+		$this->db->where('type', $type);
 		$this->db->where('source_id', $id);
 		$this->db->limit("1");
         return $this->db->get()->row('path');
@@ -62,15 +67,7 @@ class Product_model extends CI_Model
         return $this->db->get()->result();
 		
 	}
-	function get_reviews($id)
-	{
-		$this->db->select("*");
-        $this->db->from('comments');
-		$this->db->where('source_id', $id);
-		$this->db->where('type', "review");
-        return $this->db->get()->result();
-		
-	}
+
 	
 	function place_review($name,$email,$comment,$source_id)
 	{  

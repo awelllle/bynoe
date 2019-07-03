@@ -11,14 +11,18 @@ class Home extends CI_Controller {
 		
 	public function index()
 	{
-		$data['title']                = "Home - Bynotravels";
-		$data['include']              = "home";
-	    $data['products']            = $this->product_model->get_products("6");
-	     foreach($data['products'] as $p)
+		$data['item']            = $this->product_model->get_item('tours');
+	     foreach($data['item'] as $i)
 	     {
-				$p->image =  $this->product_model->get_image_from_id($p->id);
+				$i->image =  $this->product_model->get_image_from_id($i->id);
 		
 		 }
+
+		 $data['testimony']            = $this->product_model->get_item('testimonies');
+	     
+		$data['title']                = "Home - Bynotravels";
+		$data['include']              = "home";
+	    
 		
 		$this->load->view('template', $data);
 	}
@@ -31,8 +35,28 @@ class Home extends CI_Controller {
 		$data['include']              = "contact";
 		$this->load->view('template', $data);
 	}
+
+	public function visa()
+	{
+		 $data['item']            = $this->product_model->get_item('visas');
+	     foreach($data['item'] as $i)
+	     {
+				$i->image =  $this->product_model->get_image_from_id($i->id, 'visas');
+		
+		 }
+		$data['title']                = "Visa Support - Bynotravels";
+		$data['include']              = "visa";
+		$this->load->view('template', $data);
+	}
+
 	public function hotels()
 	{
+		 $data['item']            = $this->product_model->get_item('hotels');
+	     foreach($data['item'] as $i)
+	     {
+				$i->image =  $this->product_model->get_image_from_id($i->id, 'hotels');
+		
+		 }
 		$data['title']                = "Hotels - Bynotravels";
 		$data['include']              = "hotels";
 		$this->load->view('template', $data);
@@ -40,6 +64,12 @@ class Home extends CI_Controller {
 
 	public function packages()
 	{
+		$data['item']            = $this->product_model->get_item('tours');
+	     foreach($data['item'] as $i)
+	     {
+				$i->image =  $this->product_model->get_image_from_id($i->id, 'tours');
+		
+		 }
 		$data['title']                = "Holiday Packages - Bynotravels";
 		$data['include']              = "packages";
 		$this->load->view('template', $data);
@@ -54,6 +84,12 @@ class Home extends CI_Controller {
 
 	public function gallery()
 	{
+		$data['item']            = $this->product_model->get_item('images');
+	     foreach($data['item'] as $i)
+	     {
+				$i->image =  $this->product_model->get_image_from_id($i->id);
+		
+		 }
 		$data['title']                = "Gallery - Bynotravels";
 		$data['include']              = "gallery";
 		$this->load->view('template', $data);

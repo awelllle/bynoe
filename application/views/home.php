@@ -166,82 +166,36 @@
 	<div class="w3ls-section wthree-pricing" id="pricing">	
 		<div class="container">
 			<div class="wthree_head_section">
-				<h3 class="w3l_header">Tour <span>Packages</span></h3>
+				<h3 class="w3l_header">Holiday <span>Packages</span></h3>
 				<p>Check out our mouth-watering packages!</p>
 			</div>
 			<div class="pricing-grids-info">
-								<div class="pricing-grid grid-one">
-									<div class="w3ls-top">
-										<img src="<?php echo base_url() ?>images/g8.jpg" class="img-responsive" alt="">
-									</div>
-									<div class="w3ls-bottom">
-										<ul class="count">
-											<h3>Thailand</h3>
-											<li>2 Days</li>
-											<li>Hotel </li>
-											<li>City Tour</li>
-											<li>BBQ dinner</li>
-										</ul>
-										<h4> 900<span class="sup">$</span> </h4>
-										<div class="more">
-											<a href="booking.html">Book Now</a>				
-										</div>
-									</div>
-								</div>
-								<div class="pricing-grid grid-two">
-									<div class="w3ls-top">
-										<img src="<?php echo base_url() ?>images/g4.jpg" class="img-responsive" alt="">
-									</div>
-									<div class="w3ls-bottom">
-										<ul class="count">
-											<h3>Newyork</h3>
-											<li>2 Days</li>
-											<li>Hotel </li>
-											<li>City Tour</li>
-											<li>BBQ dinner</li>
-										</ul>
-										<h4> 750<span class="sup">$</span> </h4>
-										<div class="more">
-											<a href="booking.html">Book Now</a>				
-										</div>
-									</div>
-								</div>
-								<div class="pricing-grid grid-three">
-									<div class="w3ls-top">
-										<img src="<?php echo base_url() ?>images/g5.jpg" class="img-responsive" alt="">
-									</div>
-									<div class="w3ls-bottom">
-										<ul class="count">
-											<h3>Australia</h3>
-											<li>2 Days</li>
-											<li>Hotel </li>
-											<li>City Tour</li>
-											<li>BBQ dinner</li>
-										</ul>
-										<h4> 850<span class="sup">$</span> </h4>
-										<div class="more">
-											<a href="booking.html">Book Now</a>			
-										</div>
-									</div>
-								</div>
-								<div class="zb pricing-grid grid-four">
-									<div class="w3ls-top">
-										<img src="<?php echo base_url() ?>images/g11.jpg" class="img-responsive" alt="">
-									</div>
-									<div class="w3ls-bottom">
-										<ul class="count">
-											<h3>Dubai</h3>
-											<li>2 Days</li>
-											<li>Hotel </li>
-											<li>City Tour</li>
-											<li>BBQ dinner</li>
-										</ul>
-										<h4> 950<span class="sup">$</span> </h4>
-										<div class="more">
-											<a href="booking.html">Book Now</a>				
-										</div>
-									</div>
-								</div>
+								
+			<?php foreach ($item as $i){ ?>
+
+				<div class="col-md-3 col-sm-6">
+				<div class="product-grid">
+					<div class="product-image">
+						<a href="#">
+							<img class="pic-1" src="<?php echo base_url('media/'.$i->image) ?>">
+							</a>
+					
+						
+					</div>
+				
+					<div class="product-content">
+						<h3 class="title"><a href="#"><?php echo $i->country ?></a></h3>
+						<div class="price">&#8358;<?php echo number_format($i->price) ?>
+							
+						</div>
+						<div class="more">
+												<a href="<?php echo  site_url('contact'); ?>">Contact Us!</a>				
+											</div>
+					</div>
+				</div>
+				</div>
+
+				<?php } ?>
 								<div class="clearfix"> </div> 
 				<!--End-slider-script-->
 			</div>
@@ -323,34 +277,15 @@
 			<section class="slider">
 				<div class="flexslider">
 					<ul class="slides">
-						<li>
-							<img src="<?php echo base_url() ?>images/c1.jpg" alt="" />
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+					<?php foreach ($testimony as $t){ ?>
+					   <li>
+							<p><?php echo $t->testimony ?></p>
 								<div class="client">
-									<h5>Gerald Roy</h5>
+									<h5><?php echo $t->name ?></h5>
 								</div>
 						</li>
-						<li>
-							<img src="<?php echo base_url() ?>images/c2.jpg" alt="" />
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
-								<div class="client">
-									<h5>Adam Brandom</h5>
-								</div>
-						</li>
-						<li>
-							<img src="<?php echo base_url() ?>images/c3.jpg" alt="" />
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
-								<div class="client">
-									<h5>Steve Artur</h5>
-								</div>
-						</li>
-						<li>
-							<img src="<?php echo base_url() ?>images/c4.jpg" alt="" />
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
-								<div class="client">
-									<h5>Martin Victor</h5>
-								</div>
-						</li>
+               	<?php  } ?>
+					
 					</ul>
 				</div>
 			</section>
