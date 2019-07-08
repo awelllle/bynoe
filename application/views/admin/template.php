@@ -137,7 +137,7 @@
             
 			<?php $this->load->view($include); ?>
 			
-            <footer class="footer text-center"> 2018 &copy; Shortletpro </footer>
+            <footer class="footer text-center"> 2019 &copy; Bynoe </footer>
         </div>
         <!-- /#page-wrapper -->
     </div>
