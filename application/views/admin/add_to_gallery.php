@@ -10,10 +10,13 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="white-box">
-                           <!-- <a href="<?php echo site_url('Admin/add_TOUR'); ?>" ><i class="fa fa-arrow-left"></i> Back</a>-->
-	                        <?php echo $this->session->flashdata('msg');  ?>
+                            <?php echo $this->session->flashdata('msg');  ?>
                           <form class="form-material form-horizontal" role="form"  action="<?php echo site_url('Admin/add_to_gallery'); ?>" enctype="multipart/form-data" method="post">
- 
+                
+                <div class="form-group">
+                  <label for=""> Caption</label>
+                  <input type="text" class="form-control" required id="caption" placeholder="" name="caption" value="<?php  set_value('caption'); ?>" >
+                </div>
 
                 <div class="form-group">
                   <label for="">Images</label>

@@ -9,7 +9,7 @@
 			 <?php foreach($item as $i){ ?>
 					<div class="col-md-4 w3_agile_gallery_grid">
 						<div class="">
-							<a title="" href="<?php echo base_url() ?>media/<?php echo $i->path ?>">
+							<a title="<?php echo $i->caption ?>" href="<?php echo base_url() ?>media/<?php echo $i->path ?>">
 								<div class="agile_gallery_grid1">
 									<img src="<?php echo base_url() ?>media/<?php echo $i->path ?>" alt="Image" class="img-responsive" />
 									

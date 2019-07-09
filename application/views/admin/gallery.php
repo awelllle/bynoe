@@ -33,6 +33,7 @@
                                     <thead>
                                        <tr>
                                            <th>Image</th>  
+                                           <th>Caption</th>  
                                                                                       
 											
 											
@@ -43,6 +44,7 @@
 									<?php  foreach ($prod as $p){ ?>
                                         <tr>
 											 <td><?php echo $p->path ?></td>
+                                             <td><?php echo $p->caption ?></td>
                                             
 											 <td>
 						 	<?php echo anchor('Admin/edit_gallery/'.$p->id, '<span class="btn btn-info m-b-5">Edit</span>'); ?>

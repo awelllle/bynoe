@@ -304,10 +304,9 @@ class Admin extends CI_Controller {
 			 } else {
 			 
 
-		   $data['type'] = "hotels";
-		   $data['source_id']    = $id;
-		   $data['path']         =  $files['userfile']['name'][$i];
-					 $this->db->insert('images', $data);	
+					$data['source_id']    = $id;
+					$data['path']         =  $files['userfile']['name'][$i];
+					$this->Admin_model->update_post($id, $data,'images');
 			 }
 		 }
 	}
@@ -441,6 +440,7 @@ class Admin extends CI_Controller {
      if($this->input->post("submit"))
      {
 
+
 						            $files = $_FILES;
 									$filesCount = sizeof($_FILES['userfile']['name']);
 									for($i = 0; $i < $filesCount; $i++){
@@ -464,7 +464,7 @@ class Admin extends CI_Controller {
 										
 										} else {
 										
-
+											    $data['caption'] = $this->input->post("caption");
 												$data['type'] = "gallery";
 												$data['path']         =  $files['userfile']['name'][$i];
 												$this->db->insert('images', $data);	
@@ -483,6 +483,71 @@ class Admin extends CI_Controller {
 				        $this->load->view                   ("admin/template", $data); 					
 	  }
   }
+
+
+  public function edit_gallery($id)
+    {
+			if(!$this->session->userdata('logged_in'))
+			{
+				redirect("Admin/login");   	
+			}
+
+
+		if($this->input->post("submit"))
+		{
+			   $files = $_FILES;
+			   $filesCount = sizeof($_FILES['userfile']['name']);
+			
+			if( $_FILES['userfile']['name'] != ""){
+
+			   
+				$config['upload_path'] = 'media';
+				$config['allowed_types'] = '*';
+				$config['overwrite'] = false;
+				$this->load->library('upload', $config);
+
+				$_FILES['userfile']['name']= $files['userfile']['name'];
+				$_FILES['userfile']['type']= $files['userfile']['type'];
+				$_FILES['userfile']['tmp_name']= $files['userfile']['tmp_name'];
+				$_FILES['userfile']['error']= $files['userfile']['error'];
+				$_FILES['userfile']['size']= $files['userfile']['size'];   
+
+				if (!$this->upload->do_upload()) {
+					 
+					$this->Admin_model->delete($id,"images");
+					echo $this->upload->display_errors();
+					
+				} else {
+				
+						
+						$data['path']         =  $files['userfile']['name'];
+						$this->Admin_model->update_post($id, $data,'images');
+						$this->session->set_flashdata('msg', '<div class="alert alert-success text-center">Item updated!</div>');
+				
+						redirect('Admin/edit_gallery/'.$id);
+						
+				}
+			}else{
+				$data['caption'] = $this->input->post("caption");
+				$this->Admin_model->update_post($id, $data,'images');
+				$this->session->set_flashdata('msg', '<div class="alert alert-success text-center">Item updated!</div>');
+				
+				redirect('Admin/edit_gallery/'.$id);
+               
+			}
+			
+
+		}else{
+
+			$data['id']                         = $id;
+			$data['title']                     = 'All Items';
+			$data['details']                     =  $this->Admin_model->get_item_details($id,'images');
+			$data['current']                   = 'gallery';	
+			$data['include']                   = 'admin/edit_gallery';	
+			$this->load->view                  ("admin/template", $data);  
+		}
+    }
+
 
 
   public function manage_visas()
