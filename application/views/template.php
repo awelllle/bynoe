@@ -82,7 +82,7 @@
 			<div class="col-md-4 agile_footer_grid">
 				<h3>Contact Info</h3>
 				<ul class="w3_address">
-					<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i> 23 Oluwalewinu Street off Ladipo Kuku Bus Stop, Ikeja </li>
+					<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i> 7 Olayinka Bamgbose street, Ikeja. Embassy laundromat building</li>
 					<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@bynoetravels.com">info@bynoetravels.com</a></li>
 					<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+234 (0) 806 117 9446</li>
 				</ul>

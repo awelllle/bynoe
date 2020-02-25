@@ -50,7 +50,7 @@
 			<h4 class="w3l-contact">Connect With Us</h4>
 			<p class="contact-agile1"><strong>Phone :</strong> +234 (0) 806 117 9446</p>
 			<p class="contact-agile1"><strong>Email :</strong> <a href="mailto:info@bynoetravels.com">info@bynoetravels.com</a></p>
-			<p class="contact-agile1"><strong>Address :</strong> 23 Oluwalewinu Street off Ladipo Kuku Bus Stop, Ikeja</p>											
+			<p class="contact-agile1"><strong>Address :</strong> 7 Olayinka Bamgbose street, Ikeja. Embassy laundromat building</p>											
 			
 							<ul class="agileits_social_list">
 								<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
